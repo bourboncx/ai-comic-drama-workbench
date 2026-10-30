@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "credentials": {
+    "minimax": { "apiKey": "" },
+    "openai": { "apiKey": "" },
+    "google": { "apiKey": "", "projectId": "", "location": "us-central1" },
+    "runway": { "apiKey": "" },
+    "byteplus": { "apiKey": "" },
+    "kling": { "apiKey": "", "accessKey": "", "secretKey": "" },
+    "vidu": { "apiKey": "" },
+    "custom": { "apiKey": "" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "integrations": {
+    "matrixmedia": { "enabled": false, "baseUrl": "http://127.0.0.1:30088", "mode": "api" },
+    "moneyprinter": { "enabled": false, "baseUrl": "http://127.0.0.1:8080", "mode": "api" },
+    "videolingo": { "enabled": false, "baseUrl": "http://127.0.0.1:8000", "mode": "api" },
+    "narrato": { "enabled": false, "baseUrl": "", "mode": "sidecar" },
+    "funclip": { "enabled": false, "baseUrl": "", "mode": "sidecar" },
+    "comfyui": { "enabled": true, "baseUrl": "http://127.0.0.1:8188", "mode": "api" }
+  }
+}

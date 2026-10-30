@@ -1,0 +1,33 @@
+{
+  "name": "comic-drama-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "description": "本地优先、模型可替换的 AI 漫剧与短剧生产工作台",
+  "license": "MIT",
+  "author": "bourboncx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bourboncx/ai-comic-drama-workbench.git"
+  },
+  "homepage": "https://github.com/bourboncx/ai-comic-drama-workbench#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "vite build",
+    "preview": "node server.mjs --production",
+    "check": "vite build"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.1.0"
+  }
+}
